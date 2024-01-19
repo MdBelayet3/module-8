@@ -1,0 +1,362 @@
+/* common shared style */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 18px 35px;
+}
+
+/* nav related style  */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 230px;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    margin-right: 50px;
+    color: var(--Dark-02, #474747);
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.nav-style {
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+.mary-style {
+    color: #FD6E0A;
+}
+
+/* header related style */
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'),url('/images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,top left;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic {
+    width: 500px;
+    height: 600px;
+}
+
+.banner-greating {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.banner-head {
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-par {
+    color: #757575;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* main section style */
+
+/* about section style */
+.section-1 {
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 230px;
+    padding: 110px 155px;
+
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.info-description {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* what i do section style */
+#first {
+    padding: 30px 345px;
+}
+
+.skill-container {
+    display: flex;
+    margin: 0px 230px;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.skill {
+    padding: 33;
+    margin-right: 25px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    width: 230px;
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* resume section style */
+.resume-container {
+    display: flex;
+    margin: 110px 230px 60px;
+    justify-content: space-between;
+    
+}
+
+.resume-column {
+    padding-right: 70px;
+}
+
+.resume-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section-2 {
+    margin-top: 110px;
+}
+
+.resume-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-btn {
+    text-align: center;
+}
+
+/* footer section style */
+footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 130px;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact-info input,
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background:#FFF;
+    border: none;
+    padding: 20px 30px;
+    width: 100%;
+}
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    .header{
+        background-image: none;
+    }
+    nav> ul{
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    nav, .banner {
+        flex-direction: column;
+    }
+    .btn-primary {
+        margin-bottom: 30px;
+    }
+    .banner{
+        padding: 20px;
+    }
+    .banner .profile-pic {
+        width: 300px;
+        height: 300px;
+
+    }
+    
+    .section-1 {
+        margin: 15px; 
+        padding: 20px;
+    }
+    .about-info-container {
+        flex-direction: column;
+    }
+    .skill-container{
+        flex-direction: column;
+        margin: 0px;
+        font-size: 1.5em;
+        justify-content: center;
+        align-items: center;
+    }
+    #first{
+        padding: 5px 30px;
+    }
+    .resume-container{
+        margin: 10px;
+        flex-direction: column;
+        padding-left: 30px;
+    }
+    footer {
+        flex-direction: column;
+        padding: 30px;
+        margin-top: 80px;
+    }
+    .footer-column {
+        width: 100%;
+    }
+    .contact-info input,
+textarea {
+    
+    margin-bottom: 10px;
+    width: 70%;
+}
+    
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .header{
+        background-image: none;
+    }
+    nav> ul{
+        flex-direction: column;
+        margin-bottom: 25px;
+    }
+    nav, .banner {
+        flex-direction: column;
+    }
+    .btn-primary {
+        margin-bottom: 30px;
+    }
+    .banner{
+        padding: 20px;
+    }
+    .banner .profile-pic {
+        width: 300px;
+        height: 300px;
+
+    }
+    .section-1 {
+        margin: 20px;
+        padding: 100px;
+    }
+    
+    .skill-container{
+        margin: 0px 30px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    #first {
+        padding: 30px;
+    }
+    .resume-container{
+        margin: 30px;
+        flex-direction: column;
+        padding-left: 0px;
+    }
+    .section-description{
+        /* width: 100%; */
+        text-align: left;
+        padding: 10px;
+        margin:0px 30px;
+    }
+    .about-info-container {
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        padding: 30px;
+        flex-direction: column;
+    }
+    .footer-column {
+        width: 100%;
+    }
+    .contact-info input,
+    textarea {
+        
+        margin-bottom: 10px;
+        width: 70%;
+    }
+}
