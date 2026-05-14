@@ -1,11 +1,11 @@
-# 📘 Module 8 - HTML & CSS Practice Project
+# Module 8 - HTML & CSS Practice Project
 
 This repository contains my Module 8 web development practice projects.  
 It includes a responsive portfolio website and multiple practice files using HTML and CSS (Flexbox, Grid, and Layout design).
 
 ---
 
-## 🚀 Live Project Overview
+## Live Project Overview
 
 This repository is a collection of different frontend practice projects where I learned how to build layouts using modern CSS techniques.
 
@@ -21,13 +21,13 @@ Main focus:
 
 ---
 
-## 🌐 1. Responsive Portfolio Website
+## 1. Responsive Portfolio Website
 
-📄 File: `responsive portfolio website/index.html`
+ File: `responsive portfolio website/index.html`
 
 This is a personal portfolio website designed using HTML and CSS.
 
-### ✨ Features:
+### Features:
 - Responsive hero section
 - Navigation bar
 - About Me section
@@ -36,16 +36,16 @@ This is a personal portfolio website designed using HTML and CSS.
 - Contact form
 - Footer with social links
 
-### 🛠️ Technologies:
+### Technologies:
 - HTML5
 - CSS3
 - Google Fonts
 
 ---
 
-## 🎯 2. Flexbox Practice
+## 2. Flexbox Practice
 
-📄 File: `flex.html`
+ File: `flex.html`
 
 ### Learned:
 - CSS Flexbox layout
@@ -54,9 +54,9 @@ This is a personal portfolio website designed using HTML and CSS.
 
 ---
 
-## 🎯 3. CSS Grid Medium Practice
+## 3. CSS Grid Medium Practice
 
-📄 File: `grid medium.html`
+ File: `grid medium.html`
 
 ### Learned:
 - CSS Grid system
@@ -65,9 +65,9 @@ This is a personal portfolio website designed using HTML and CSS.
 
 ---
 
-## 🎯 4. Image Collage Project
+## 4. Image Collage Project
 
-📄 File: `image collage.html`
+ File: `image collage.html`
 
 ### Learned:
 - Image grid arrangement
@@ -76,10 +76,10 @@ This is a personal portfolio website designed using HTML and CSS.
 
 ---
 
-## 🎯 5. Grid Layout Model
+## 5. Grid Layout Model
 
-📄 File: `layout.html`  
-📄 CSS: `style/layout.css`
+ File: `layout.html`  
+ CSS: `style/layout.css`
 
 ### Features:
 - Header, nav, main, sidebar, advertising, footer layout
@@ -88,7 +88,7 @@ This is a personal portfolio website designed using HTML and CSS.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3
@@ -99,7 +99,7 @@ This is a personal portfolio website designed using HTML and CSS.
 
 ---
 
-## 🎯 What I Learned
+## What I Learned
 
 - How to build responsive websites
 - Flexbox layout system
@@ -110,7 +110,7 @@ This is a personal portfolio website designed using HTML and CSS.
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Make portfolio fully responsive for all devices
 - Add JavaScript interactivity
@@ -120,7 +120,7 @@ This is a personal portfolio website designed using HTML and CSS.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Belayet Hossain**  
 Aspiring Full-Stack Web Developer
@@ -129,6 +129,6 @@ GitHub: https://github.com/MdBelayet3
 
 ---
 
-## 📢 Note
+## Note
 
 This repository is created for learning and practice purposes during my web development journey.
