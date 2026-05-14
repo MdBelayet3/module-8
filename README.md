@@ -3,7 +3,6 @@
 This repository contains my Module 8 web development practice projects.  
 It includes a responsive portfolio website and multiple practice files using HTML and CSS (Flexbox, Grid, and Layout design).
 
----
 
 ## Live Project Overview
 
@@ -15,11 +14,6 @@ Main focus:
 - CSS Grid Layout Practice
 - Image Collage Design
 - Advanced Page Layout Structure
-
----
-
-
----
 
 ## 1. Responsive Portfolio Website
 
@@ -36,13 +30,6 @@ This is a personal portfolio website designed using HTML and CSS.
 - Contact form
 - Footer with social links
 
-### Technologies:
-- HTML5
-- CSS3
-- Google Fonts
-
----
-
 ## 2. Flexbox Practice
 
  File: `flex.html`
@@ -51,8 +38,6 @@ This is a personal portfolio website designed using HTML and CSS.
 - CSS Flexbox layout
 - Responsive column design
 - Flex wrapping system
-
----
 
 ## 3. CSS Grid Medium Practice
 
@@ -63,8 +48,6 @@ This is a personal portfolio website designed using HTML and CSS.
 - Grid row and column span
 - Complex layout structure
 
----
-
 ## 4. Image Collage Project
 
  File: `image collage.html`
@@ -73,8 +56,6 @@ This is a personal portfolio website designed using HTML and CSS.
 - Image grid arrangement
 - Multi-row layout design
 - Image positioning techniques
-
----
 
 ## 5. Grid Layout Model
 
@@ -86,19 +67,6 @@ This is a personal portfolio website designed using HTML and CSS.
 - CSS Grid template areas
 - Responsive design using media queries
 
----
-
-## Technologies Used
-
-- HTML5
-- CSS3
-- Flexbox
-- CSS Grid
-- Media Queries
-- Google Fonts
-
----
-
 ## What I Learned
 
 - How to build responsive websites
@@ -107,28 +75,3 @@ This is a personal portfolio website designed using HTML and CSS.
 - Structuring multiple projects in one repo
 - Working with external CSS files
 - Designing real portfolio website
-
----
-
-## Future Improvements
-
-- Make portfolio fully responsive for all devices
-- Add JavaScript interactivity
-- Improve UI design with modern CSS
-- Deploy portfolio online (Netlify / Vercel)
-- Add animations and transitions
-
----
-
-## Author
-
-**Belayet Hossain**  
-Aspiring Full-Stack Web Developer
-
-GitHub: https://github.com/MdBelayet3
-
----
-
-## Note
-
-This repository is created for learning and practice purposes during my web development journey.
